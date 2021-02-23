@@ -1,0 +1,126 @@
+.footer-container {
+  background: #6B6A6A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #F9F9F9;
+}
+
+.footer-container h4 {
+  font-weight: 500;
+}
+
+.footer-container .newsletter {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-container .inp-group {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-container .inp-group input {
+  margin: 0;
+  border: none;
+  width: 60%;
+  height: 30px;
+  color: #508AA8;
+}
+
+.footer-container .inp-group button {
+  margin: 0;
+  border: none;
+  width: 25%;
+  height: 32px;
+  background: #031927;
+  color: #F9F9F9;
+}
+
+.footer-container .soc-med {
+  margin: 10px;
+}
+
+.footer-container .soc-med h4 {
+  margin: 0;
+}
+
+.footer-container .soc-med .icon-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container .soc-med .icon-group .twitter {
+  background: url("./twitter.svg");
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.footer-container .soc-med .icon-group .viber {
+  background: url("./viber.svg");
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.footer-container .soc-med .icon-group .linkin {
+  background: url("./linkedin.svg");
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+@media (min-width: 500px) {
+  .footer-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 15px;
+  }
+  .footer-container .inp-group {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .footer-container .soc-med {
+    margin: 10px;
+  }
+  .footer-container .soc-med h4 {
+    margin: 0;
+    font-size: 14px;
+  }
+  .footer-container .company {
+    text-align: center;
+    width: 25%;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

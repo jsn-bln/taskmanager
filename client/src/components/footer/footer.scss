@@ -1,0 +1,91 @@
+.footer-container{
+    background: #6B6A6A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F9F9F9;
+    h4{
+        font-weight: 500;
+    }
+    .newsletter{
+        width: 100%;
+        text-align: center;
+    }
+    .inp-group{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        
+        input{
+            margin: 0;
+            border: none;
+            width: 60%;
+            height: 30px;
+            color: #508AA8;
+        }
+        button{
+            margin: 0;
+            border: none;
+            width: 25%;
+            height: 32px;
+            background: #031927;
+            color: #F9F9F9;
+        }
+    }
+    .soc-med{
+        margin: 10px;
+        h4{
+            margin: 0;
+        }
+        .icon-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .twitter{
+                background: url('./twitter.svg');
+                width: 30px;
+                height: 30px;
+                margin: 2px;
+            }
+            .viber{
+                background: url('./viber.svg');
+                width: 30px;
+                height: 30px;
+                margin: 2px;
+            }
+            .linkin{
+                background: url('./linkedin.svg');
+                width: 30px;
+                height: 30px;
+                margin: 2px;
+            }
+        }
+    }
+    
+}
+
+@media(min-width:500px){
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 15px;
+        .inp-group{
+            width: 40%;
+            margin: 0 auto;
+        }
+        .soc-med{
+            margin: 10px;
+            
+            h4{
+                margin: 0;
+                font-size: 14px;
+            }
+        }
+        .company{
+            text-align: center;
+            width: 25%;
+        }
+    }
+}

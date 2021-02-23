@@ -1,0 +1,178 @@
+.services-container {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.services-container span {
+  color: #508AA8;
+}
+
+.services-container h4 {
+  color: #555555;
+  font-weight: 500;
+}
+
+.services-container h2 {
+  color: #555555;
+  margin: 0;
+  font-weight: 500;
+}
+
+.services-container p {
+  color: #6B6A6A;
+  margin-top: 10px;
+}
+
+.services-container button {
+  width: 50%;
+  height: 40px;
+  border: 2px solid #508AA8;
+  border-radius: 8px;
+  background: transparent;
+  color: #508AA8;
+  margin-top: 5px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.services-container button:hover {
+  background: #508AA8;
+  color: #ffffff;
+}
+
+.services-container .blender-service {
+  -webkit-box-shadow: 0px 0px 5px -3px;
+          box-shadow: 0px 0px 5px -3px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container .blender-service .blender-svg {
+  background: url("./blender.svg");
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.services-container .code-service {
+  padding: 20px;
+}
+
+.services-container .code-service .code-svg {
+  background: url("./code.svg");
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.services-container .graphic-service {
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 5px -3px;
+          box-shadow: 0px 0px 5px -3px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.services-container .graphic-service p {
+  width: 60%;
+}
+
+.services-container .graphic-service .graphic-svg {
+  background: url("./graphic.svg");
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+.services-container .cad-service {
+  padding: 20px;
+}
+
+.services-container .cad-service .cad-svg {
+  background: url("./cad.svg");
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+}
+
+@media (min-width: 500px) {
+  .services-container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .services-container button {
+    width: 100px;
+  }
+  .services-container .blender-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 250px;
+  }
+  .services-container .code-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 250px;
+  }
+  .services-container .graphic-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 250px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .services-container .graphic-service .gd {
+    width: 40%;
+  }
+  .services-container .cad-service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 250px;
+  }
+}
+/*# sourceMappingURL=services.css.map */

@@ -1,0 +1,100 @@
+.contact-container {
+  background: #508AA8;
+  width: 94%;
+  margin: 20px auto auto 0;
+  padding: 10px;
+}
+
+.contact-container h2 {
+  color: #F9F9F9;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-container form .inp-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.contact-container form .inp-group input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin: 5px;
+  color: #508AA8;
+}
+
+.contact-container form textarea {
+  color: #508AA8;
+  width: 90%;
+  border: none;
+  min-height: 150px;
+}
+
+.contact-container form button {
+  width: 50%;
+  color: #F9F9F9;
+  border: 2px solid #f9f9f9;
+  background: transparent;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.contact-container form button:hover {
+  background: #031927;
+  border: 2px solid #031927;
+}
+
+@media (min-width: 500px) {
+  .contact-container {
+    width: 100vw;
+    overflow-y: hidden;
+  }
+  .contact-container form .inp-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .contact-container form .inp-group input {
+    width: 30%;
+  }
+  .contact-container form textarea {
+    width: 55%;
+  }
+  .contact-container form button {
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
